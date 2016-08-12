@@ -26,7 +26,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'ancestry'
 gem 'remotipart', github: 'mshibuya/remotipart'
 gem 'rails_admin', '>= 1.0.0.rc'
-gem 'foundation-rails'
+gem 'foundation-rails', '~> 6.2', '>= 6.2.3.0'
+gem 'react-rails'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

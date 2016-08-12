@@ -12,8 +12,23 @@
   </head>
 
   <body>
-
-    <%= yield %>
+  <div class="top-bar">
+    <div class="top-bar-title">
+      <h1>
+        <a href="/">  MyRestaurants</a>
+      </h1>
+    </div>
+    <div class="top-bar-right">
+      <ul class="menu">
+        <li> <%=	 link_to  'Manage Restaurants', '/admin' %></li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-12 columns">
+      <%= yield %>
+    </div>
+  </div>
 
   </body>
 </html>
